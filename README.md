@@ -1,8 +1,9 @@
 
-
 ![Logo](https://drive.google.com/uc?export=view&id=1ZEvnOefg_NXYVwIZYP8O3nAyyfi0G_V8)
 
 
+# Hi,this is ARCADE! 👋
+# I am creating this project repository for a company and asking for contibution in different fields to make it authentic
 # ARCADE
 
 CLUBBED ECOMMERCE USING SPECIAL EFFECTS OF WEB DEV AND AR EFFECTS
@@ -90,8 +91,6 @@ Start the server
 ```
 
 
-# Hi,this is ARCADE! 👋
-# I am creating this project repository for a company and asking for contibution in different fields to make it authentic
 ## 🚀 About Me
 I'm a web developer...
 Learning blockcxhain and performing entrepreneurship...
