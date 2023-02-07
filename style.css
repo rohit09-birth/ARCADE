@@ -14,7 +14,7 @@ header{
     position: sticky;
     top: 0px;
     z-index: 1;
-    
+
 }
 
 .header-left{
@@ -34,7 +34,7 @@ header{
     letter-spacing: 1.5px;
 }
 .header-left-p a{
-    font-size: 10px;    
+    font-size: 10px;
     letter-spacing: 1px;
 
 }
@@ -67,7 +67,7 @@ header{
     padding-left: 20px;
     cursor: auto;
     border-radius: 2px;
-    
+
 }
 .fa-magnifying-glass{
     position: absolute;
@@ -102,7 +102,7 @@ header{
 .more{
     position: relative;
     margin-top: 17px;
-    
+
 }
 .cart{
     margin-top: 17px;
@@ -230,7 +230,7 @@ header{
 /*---------category dropdown section----------*/
 .dropdown{
      background-color: rgb(240, 242, 244);
-     
+
 }
 .dropdown-content{
     display: none;
@@ -280,7 +280,7 @@ header{
     flex-direction: row;
     position: relative;
     animation-name: slider;
-    animation-duration:20s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
     transition-delay: 2s;
     transition: all;
@@ -297,18 +297,18 @@ header{
     0%{
         left:0px;
     }
-   
+
     20%{
         left:0px;
     }
-    
+
     40%{
         left: -1520;
-    } 
+    }
     60%{
         left: -3060px;
-    } 
-   
+    }
+
     80%{
         left:-4560px;
     }
@@ -318,7 +318,7 @@ header{
     100%{
         left: -5600px;
     }
-   
+
 }
 
    /* common for all items */
@@ -369,7 +369,7 @@ header{
     height: 150px;
     transition: 300ms;
     margin: auto;
-    
+
 }
 .common-col img:hover{
     transform: scale(1.1);
@@ -489,4 +489,67 @@ height: 400;
     width: 10%;
     height: 10%;
     position: relative;
+}
+/* media query breakpoints to handle the website on mobile devices */
+@media(max-width: 450px){
+  .common-row, .common-heading{
+    display:inline-block;
+  }
+  .common-row{
+    max-height: none;
+  }
+  .common-col {
+    text-align: center;
+    line-height: 22px;
+    display: inline-block;
+    margin: 12.5px;
+  }
+  .common-heading-right button {
+    display: inline;
+    position: relative;
+    left: 245;
+    bottom: 30;
+  }
+  .rem{
+    display: none;
+  }
+  .footer-row{
+    justify-content: space-between;
+  }
+  header{
+    display: block;
+    height: 95px;
+  }
+  .header-left{
+    margin:0;
+  }
+  .header-center{
+    margin-top: 2.5px;
+    width: 72%;
+    position: relative;
+    left: 90;
+    bottom:45;
+  }
+  .login {
+    position: relative;
+    left: 0;
+    bottom: 48;
+  }
+  .more {
+    width: fit-content;
+    position: relative;
+    left: 180;
+    bottom: 85;
+  }
+  .cart_lan {
+    position: relative;
+    left: 290;
+    bottom: 120;
+  }
+  .footer-row-2{
+    display: block;
+  }
+  footer{
+    height: auto;
+  }
 }
