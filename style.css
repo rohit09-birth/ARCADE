@@ -280,7 +280,7 @@ header{
     flex-direction: row;
     position: relative;
     animation-name: slider;
-    animation-duration: 15s;
+    animation-duration:20s;
     animation-iteration-count: infinite;
     transition-delay: 2s;
     transition: all;
