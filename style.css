@@ -473,9 +473,17 @@ height: 400;
 .fa-bag-shopping,.fa-star,.fa-gift,.fa-circle{
     color: yellow;
     cursor: pointer;
+    /* padding: 10px; */
+    font-size: 15px;
+}
+
+.icon_footer{
+    color: yellow;
+    cursor: pointer;
     padding: 10px;
     font-size: 15px;
 }
+
 .footer-row2-col p{
     color: white;
     font-size: 15px;
@@ -484,6 +492,10 @@ height: 400;
     text-align: center;
     line-height: 50px;
     letter-spacing: 0.7;
+}
+.footer-row2-col a{
+    text-decoration: none;
+    color: white;
 }
 .footer-row2-col img{
     width: 10%;
