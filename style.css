@@ -1,11 +1,12 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-    font-family:'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
+
 /*--------Header Section------*/
-header{
+header {
     display: flex;
     justify-content: space-evenly;
     background-color: #2874f0;
@@ -14,17 +15,17 @@ header{
     position: sticky;
     top: 0px;
     z-index: 1;
-    
+
 }
 
-.header-left{
+.header-left {
     width: 20%;
     text-align: right;
     margin: 5px 0px;
     cursor: pointer;
 }
 
-.header-left a{
+.header-left a {
     color: white;
     font-size: 20px;
     text-decoration: none;
@@ -32,23 +33,27 @@ header{
     font-style: italic;
     letter-spacing: 1.5px;
 }
-.header-left-p a{
-    font-size: 10px;    
+
+.header-left-p a {
+    font-size: 10px;
     letter-spacing: 1px;
 
 }
-.header-left-p  span{
+
+.header-left-p span {
     color: yellow;
     font-size: 10px;
     letter-spacing: 1px;
 
 }
-.header-left-p:hover{
+
+.header-left-p:hover {
     text-decoration: underline;
     color: white;
 
 }
-.header-center{
+
+.header-center {
     width: 40%;
     text-align: left;
     line-height: 50px;
@@ -57,7 +62,8 @@ header{
     position: relative;
 
 }
-.header-center-input{
+
+.header-center-input {
     margin-top: 10px;
     height: 36px;
     width: 100%;
@@ -66,9 +72,10 @@ header{
     padding-left: 20px;
     cursor: auto;
     border-radius: 2px;
-    
+
 }
-.fa-magnifying-glass{
+
+.fa-magnifying-glass {
     position: absolute;
     top: 36%;
     left: 94%;
@@ -76,14 +83,16 @@ header{
     color: #2874f0;
 
 }
+
 /*------- login button----------*/
-.login{
+.login {
     position: relative;
     left: 45px;
     margin-top: 17px;
 
 }
-.login_btn{
+
+.login_btn {
     color: #2874f0;
     border-radius: 2px;
     border: 1px solid white;
@@ -98,38 +107,42 @@ header{
     font-size: 16px;
 
 }
-.more{
+
+.more {
     position: relative;
     margin-top: 17px;
-    
+
 }
-.cart{
+
+.cart {
     margin-top: 17px;
     margin-right: 60px;
 }
 
-.none{
+.none {
     display: none;
 }
 
-.flex{
+.flex {
     display: flex;
 }
 
-.more-icon{
+.more-icon {
     color: #2874f0;
     margin-left: 15px;
     padding: 20px;
 
 }
-.more_lan{
+
+.more_lan {
     color: white;
     cursor: pointer;
     font-size: 15px;
     padding: 20px;
 
 }
-.pointer{
+
+.pointer {
     width: 20px;
     height: 20px;
     background: black;
@@ -139,15 +152,20 @@ header{
     left: 80%;
 
 }
-.fa-angle-down:hover{
+
+.fa-angle-down:hover {
     transform: rotate(180deg);
 
 }
-.more_dropdown, .login_dropdown{
+
+.more_dropdown,
+.login_dropdown {
     position: relative;
     top: 12px;
 }
-.login_dropdown_list, .more_dropdown_list{
+
+.login_dropdown_list,
+.more_dropdown_list {
     position: absolute;
     list-style: none;
     background-color: white;
@@ -156,56 +174,70 @@ header{
     min-width: 240px;
     transform: translate(-30px);
 }
-.login_drop_li{
+
+.login_drop_li {
     padding: 16px 20px;
     border-bottom: 1px solid white;
     font-size: 14px;
     cursor: pointer;
 
 }
-.login_drop_li .fa-solid{
+
+.login_drop_li .fa-solid {
     color: #2874f0;
     padding-right: 10px;
 }
-.login_drop_li:hover{
+
+.login_drop_li:hover {
     background: rgb(220, 220, 165);
 }
-.login_drop_li:first-child{
+
+.login_drop_li:first-child {
     padding: 20px;
 }
-.login_drop_li:last-child:hover{
+
+.login_drop_li:last-child:hover {
     color: white;
 }
-.login_drop_li:last-child{
+
+.login_drop_li:last-child {
     padding: 20px;
 }
-.login:hover .login_dropdown, .more:hover .more_dropdown{
+
+.login:hover .login_dropdown,
+.more:hover .more_dropdown {
     display: block;
 }
-.sign_up{
+
+.sign_up {
     text-decoration: none;
     color: #2874f0;
 }
-.sign_up:hover{
+
+.sign_up:hover {
     text-decoration: underline;
     color: #2874f0;
 }
-.sign.li{
+
+.sign.li {
     justify-content: space-between;
     font-size: 14px;
 }
-.new_login{
+
+.new_login {
     font-weight: bold;
 
 }
-.cart_lan .fa-cart-shopping{
+
+.cart_lan .fa-cart-shopping {
     padding-right: 12px;
     padding-top: 20px;
     color: white;
     cursor: pointer;
 }
+
 /*-------category section----------*/
-.category-row{
+.category-row {
     display: flex;
     justify-content: space-evenly;
     width: 100%;
@@ -214,38 +246,61 @@ header{
     text-align: center;
 
 }
-.category-col{
+
+.category-col-img-anim {
+    z-index: 50;
+    transition: 0.25s;
+    transform: scale(1);
+}
+
+
+.category-col-img-anim:hover {
+    position: relative;
+    transform: scale(1.15) translate(0,-10px);
+    /* transform: ; */
+    /* transform: skewY(-10px); */
+    /* top: -10px; */
+    z-index: 50;
+}
+
+.category-col {
     padding: 10px 0px;
     cursor: pointer;
-    color: rgb(85,83,83);
+    color: rgb(85, 83, 83);
 }
-.category-col img{
+
+.category-col img {
     width: 100px;
     height: 80px;
 }
-.category-col h5:hover{
+
+.category-col h5:hover {
     color: #2874f0;
 }
+
 /*---------category dropdown section----------*/
-.dropdown{
-     background-color: rgb(240, 242, 244);
-     
+.dropdown {
+    background-color: rgb(240, 242, 244);
+
 }
-.dropdown-content{
+
+.dropdown-content {
     display: none;
     position: absolute;
     background-color: aliceblue;
     width: 100%;
     left: 0;
-    box-shadow: 0px 8px 16px 0px rgb(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgb(0, 0, 0, 0.2);
     z-index: 1;
 }
-.dropdown-content .header{
+
+.dropdown-content .header {
     background: gainsboro;
     padding: 0px;
     color: white;
 }
-.col a{
+
+.col a {
     float: none;
     color: black;
     padding: 8px;
@@ -254,68 +309,81 @@ header{
     display: block;
     text-align: left;
 }
-.col{
-    float:left;
+
+.col {
+    float: left;
     width: 33.33%;
     padding: 10px;
     background-color: white;
     height: auto;
 }
-.col a:hover{
+
+.col a:hover {
     background-color: #ddd;
 }
-.dropdown:hover .dropdown-content{
+
+.dropdown:hover .dropdown-content {
     display: block;
 
 }
+
 /*-------banner section------*/
-.banner{
-    width:100%;
-    overflow:hidden;
+.banner {
+    width: 100%;
+    overflow: hidden;
 }
-.slider{
+
+.slider {
     display: flex;
     flex-direction: row;
-    position: relative
-    animation-name= slider;
+    position: relative animation-name=slider;
     animation-duration: 15s;
     animation-iteration-count: infinite;
     transition-delay: 2s;
 
 }
-.slider img{
+
+.slider img {
     width: 100%;
 
 }
 
-@keyframes slider{
-    0%{
-        left:0px;
+@keyframes slider {
+    0% {
+        left: 0px;
     }
-    20%{
-        left:0px;
+
+    20% {
+        left: 0px;
     }
-    40%{
+
+    40% {
         left: -1520px;
-    } 
-    60%{
+    }
+
+    60% {
         left: -3040px;
-    } 
-    80%{
+    }
+
+    80% {
         left: -4560px;
-    } 
-    100%{
+    }
+
+    100% {
         left: -6080px;
     }
 
 }
-*{
+
+* {
     box-sizing: border-box;
-  }
-  body{
+}
+
+body {
     background-color: black;
-  }
-  .container{
+}
+
+.container {
     display: flex;
     flex-wrap: wrap;
     width: 60px;
@@ -326,72 +394,80 @@ header{
     left: calc(50% - 30px);
     animation: scale-x 1s ease forwards;
     animation-delay: 2.3s;
-  }
-  .container span{
+}
+
+.container span {
     flex-basis: 50%;
     aspect-ratio: 1/1;
     display: block;
     transition: opacity 0.7s ease;
-  }
-  
-  .tile-1{
+}
+
+.tile-1 {
     background-color: white;
     transform-origin: 100% 100%;
     animation: flip-1 0.5s linear forwards;
     border: none;
     opacity: 0;
     transition: opacity 0.7s ease;
-  }
-  .tile-2{
+}
+
+.tile-2 {
     background-color: white;
     transform-origin: 50% 100%;
     animation: flip-2 0.5s linear forwards;
     animation-delay: 0.5s;
     opacity: 0;
-  }
-  .tile-3{
+}
+
+.tile-3 {
     background-color: white;
     transform-origin: 50% 0%;
     animation: flip-4 0.5s linear forwards;
     animation-delay: 1.5s;
     opacity: 0;
-   
-  }
-  .tile-4{
+
+}
+
+.tile-4 {
     background-color: white;
     transform-origin: 0% 50%;
     animation: flip-3 0.5s linear forwards;
-    animation-delay: 1s; 
+    animation-delay: 1s;
     opacity: 0;
-  }
-  
-  @keyframes flip-1{
-    to{
-      transform: rotateY(180deg);
-      opacity: 1;
+}
+
+@keyframes flip-1 {
+    to {
+        transform: rotateY(180deg);
+        opacity: 1;
     }
-  }
-  @keyframes flip-2{
-    to{
-      transform: rotateX(180deg);
-      opacity: 1;
+}
+
+@keyframes flip-2 {
+    to {
+        transform: rotateX(180deg);
+        opacity: 1;
     }
-  }
-  @keyframes flip-3{
-    to{
-      transform: rotateY(-180deg);
-      opacity: 1;
+}
+
+@keyframes flip-3 {
+    to {
+        transform: rotateY(-180deg);
+        opacity: 1;
     }
-  }
-  @keyframes flip-4{
-    to{
-      transform: rotateX(-180deg);
-      opacity: 1;
+}
+
+@keyframes flip-4 {
+    to {
+        transform: rotateX(-180deg);
+        opacity: 1;
     }
-  }
-  @keyframes scale-x{
-   to{
-     transform: scale(50);
-     opacity: 0;
+}
+
+@keyframes scale-x {
+    to {
+        transform: scale(50);
+        opacity: 0;
     }
-  }
+}
