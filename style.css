@@ -18,6 +18,50 @@
     transition: opacity 5s 0.9s ease;
 }
 
+/* @media (prefers-color-scheme: dark) {
+    body , .dropdown,.more_dropdown,.banner,
+    ul,li,.row,.col,.dropbtn,h3,h2,h1,h6,.common-col{
+      background-color: black !important;
+      color: white !important;
+    }
+    footer{
+        background-color: black !important;
+        
+    }
+    h4{
+        color:yellow !important;
+
+    }
+    header{
+        background-color: black  !important;
+    }
+    a{
+        color: white !important;
+    }
+    .login_btn{
+        background-color: #2874f0 !important;
+    }
+    .price{
+        color: white !important;
+    }
+    .footer-heading p{
+        font-size: 1.2em !important;
+        color: white !important;
+        font-weight: 1 !important;
+
+    }
+   .login_drop_li:hover{
+    background-color: white !important    ;
+    color:black !important;
+   }
+    
+  } */
+  
+  /* @media (prefers-color-scheme: light) {
+    .day.light-scheme {
+      background: white;
+    }
+  } */
 
 /*--------Header Section------*/
 header{
@@ -221,6 +265,27 @@ header{
     cursor: pointer;
 }
 /*-------category section----------*/
+
+
+
+.category-col-img-anim {
+ z-index: 50;
+ transition: 0.25s;
+ transform: scale(1);
+ }
+
+
+ .category-col-img-anim:hover {
+ position: relative;
+ transform: scale(1.15) translate(0,-10px);
+ /* transform: ; */
+ /* transform: skewY(-10px); */
+ /* top: -10px; */
+ z-index: 50;
+ }
+    
+
+
 .category-row{
     display: flex;
     justify-content: space-evenly;
