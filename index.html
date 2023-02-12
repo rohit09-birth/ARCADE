@@ -10,9 +10,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/fontawesome.min.css">
 </head>
-<body style="width:100%;">
 
-    <div id="bi" onload="myfuction()">
+
+    <body onload="myFunction()">
+        <div id="loading">
+            <div class="container">
+                <span class="tile-1"></span>
+                <span class="tile-2"></span>
+                <span class="tile-3"></span>
+                <span class="tile-4"></span>
+              </div>
+        </div>
+<!-- 
+    <div id="bi">
         <div class="container">
             <span class="tile-1"></span>
             <span class="tile-2"></span>
@@ -20,7 +30,7 @@
             <span class="tile-4"></span>
           </div>
 
-    </div>
+    </div> -->
     <!------Header Section-------->
     <header>
         <div class="header-left">
@@ -503,6 +513,25 @@
 
     </div>
 </footer>
-<script src="./app.js"></script>
+<!-- <script src="./app.js"></script> -->
+<script>
+    // $(document).ready(function(){
+        // 	$('div#loading').removeAttr('id');
+    // });
+    var preloader = document.getElementById("loading");
+    // window.addEventListener('load', function(){
+    // 	preloader.style.display = 'none';
+    // 	})
+    function myFunction(){
+        setTimeout(()=>{
+            
+                preloader.style.opacity =0;
+                preloader.style.display = 'none';
+           
+            
+        },3000);
+    };
+
+</script>
 </body>
 </html>
