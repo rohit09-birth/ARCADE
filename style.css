@@ -239,6 +239,23 @@ header{
     width: 100px;
     height: 80px;
 }
+
+.category-col-img-anim {
+    z-index: 50;
+    transition: 0.25s;
+    transform: scale(1);
+}
+
+
+.category-col-img-anim:hover {
+    position: relative;
+    transform: scale(1.15) translate(0,-10px);
+    /* transform: ; */
+    /* transform: skewY(-10px); */
+    /* top: -10px; */
+    z-index: 50;
+}
+
 .category-col h5:hover{
     color: #2874f0;
 }
