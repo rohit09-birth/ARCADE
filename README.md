@@ -7,10 +7,11 @@
 # ARCADE
 
 the link for ARCADE here u go  
-https://bipulrahi.github.io/ARCADE/
+https://rohit09-birth.github.io/ARCADE/
 
-the link for ARCADE here u go  
+the link for ARCADE discord here u go  
 https://discord.gg/kxt54y2GYR
+
 
 CLUBBED ECOMMERCE USING SPECIAL EFFECTS OF WEB DEV AND AR EFFECTS
 
