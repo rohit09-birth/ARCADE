@@ -10,7 +10,31 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/fontawesome.min.css">
 </head>
+ 
+
+
+    <body onload="myFunction()">
+        <div id="loading">
+            <div class="container">
+                <span class="tile-1"></span>
+                <span class="tile-2"></span>
+                <span class="tile-3"></span>
+                <span class="tile-4"></span>
+              </div>
+        </div>
+<!-- 
+    <div id="bi">
+        <div class="container">
+            <span class="tile-1"></span>
+            <span class="tile-2"></span>
+            <span class="tile-3"></span>
+            <span class="tile-4"></span>
+          </div>
+
+    </div> -->
+=======
 <body style="width:100%;">
+
     <!------Header Section-------->
     <header>
         <div class="header-left">
@@ -26,12 +50,12 @@
         </div>
         <!--------- login button, more --------->
         <div class="login">
-            <a href="#" class="login_btn">Login</a>
+            <a href="./login-index.html" class="login_btn">Login</a>
             <div class="login_dropdown none">
                 <ul class="login_dropdown_list">
                     <li class="login_drop_li sign_li_flex">
                         <p class="new_login">New Customer</p>
-                        <a href="#" class="sign_up">sign_up</a>
+                        <a href="./sign-up.html" class="sign_up">sign_up</a>
                     </li>
                     <li class="login_drop_li"><i class="fa-solid fa-circle-user"></i>My Profile</li>
                     <li class="login_drop_li"><i class="fa-solid fa-square-plus"></i>ARCADE PLUS ZONES</li>
@@ -55,6 +79,8 @@
                     <li class="login_drop_li"><i class="more-icon fa fa-line-chart"></i>Advertise</li>
                     <li class="login_drop_li"><i class="more-icon fa fa-download"></i>Download App</li>
 
+ 
+=======
                 </ul>
             </div>
 
@@ -70,6 +96,7 @@
                     <li class="login_drop_li">Online stores</li>
                     <li class="login_drop_li">Handicrafts</li>
                     <li class="login_drop_li">New seller registration</li>
+
 
                 </ul>
             </div>
@@ -509,6 +536,25 @@
 
     </div>
 </footer>
+<!-- <script src="./app.js"></script> -->
+<script>
+    // $(document).ready(function(){
+        // 	$('div#loading').removeAttr('id');
+    // });
+    var preloader = document.getElementById("loading");
+    // window.addEventListener('load', function(){
+    // 	preloader.style.display = 'none';
+    // 	})
+    function myFunction(){
+        setTimeout(()=>{
+            
+                preloader.style.opacity =0;
+                preloader.style.display = 'none';
+           
+            
+        },3000);
+    };
 
+</script>
 </body>
 </html>
