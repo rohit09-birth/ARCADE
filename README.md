@@ -51,7 +51,7 @@ Some of whose features can be -
 
 **Client:** HTML , CSS , Javascript , Bootstrap
 
-**Server:** Node, PHP , Python , SQL , Excel ( some Excel values with Blender)
+**Server:**  PHP , SQL , Excel 
 
 
 ## Used By
