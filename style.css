@@ -562,6 +562,15 @@ height: 400;
   .footer-row-2{
     display: block;
   }
+
+    
+  .burger-button{
+    display: block;
+    position:relative;
+    left: 235 !important;
+    bottom: 120 !important;
+  }
+
   footer{
     height: auto;
   }
