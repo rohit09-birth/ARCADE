@@ -120,19 +120,21 @@ margin-bottom: 20px;
       font-family: 'Roboto', sans-serif;
     margin-top:none;
 }
-.box2  .button input[type=reset]{
+.box2  #bipull{
     box-shadow:2px 1px 5px 0 rgba(0,0,0,0.2);
-    border-radius: 2px;
+    border-radius: 12px;
+    text-align: center;
     color:#2874f0;
     font-weight:600;
     outline:none;
+    cursor: pointer;
     transition: 0.5s;
       font-family: 'Roboto', sans-serif;
 }
 .box2  .button input[type=submit]:hover{
     box-shadow:2px 3px 5px 0 rgba(0,0,0,0.2);
 }
-.box2  .button input[type=reset]:hover{
+.box2  .button #bipull:hover{
     box-shadow:2px 2px 10px 0 rgba(0,0,0,0.2)
 }
 .user-id .footer a{
