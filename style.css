@@ -490,6 +490,27 @@ height: 400;
     height: 10%;
     position: relative;
 }
+/* profile pic classes*/
+.profile-pic{
+  border: solid 1px #333;
+  border-radius: 10px;
+  margin: 25px;
+  width: 30%;
+}
+.seller-contaner{
+  display: flex;
+  text-align: center;
+}
+.seller-details{
+  display: inline-block;
+}
+.seller-details h1{
+  font-size: 300%;
+}
+.seller-details h1,.seller-details p,.seller-details h3{
+  position: relative;
+  bottom: 100px;
+}
 /* media query breakpoints to handle the website on mobile devices */
 @media(max-width: 450px){
   .common-row, .common-heading{
