@@ -12,9 +12,6 @@ https://bipulrahi.github.io/ARCADE/
 the link for ARCADE here u go  
 https://discord.gg/kxt54y2GYR
 
-the link for ARCADE here u go  
-https://discord.gg/kxt54y2GYR
-
 CLUBBED ECOMMERCE USING SPECIAL EFFECTS OF WEB DEV AND AR EFFECTS
 
 Some of whose features can be -
@@ -54,7 +51,7 @@ Some of whose features can be -
 
 **Client:** HTML , CSS , Javascript , Bootstrap
 
-**Server:**  PHP , SQL , Excel 
+**Server:** Node, PHP , Python , SQL , Excel ( some Excel values with Blender)
 
 
 ## Used By
