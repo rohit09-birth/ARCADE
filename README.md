@@ -7,7 +7,7 @@
 # ARCADE
 
 the link for ARCADE here u go  
-https://rohit09-birth.github.io/ARCADE/
+https://bipulrahi.github.io/ARCADE/
 
 the link for ARCADE here u go  
 https://discord.gg/kxt54y2GYR
