@@ -14,7 +14,7 @@
     top: calc(50% - 30px);
     left: calc(50% - 30px);
     animation: scale-x 1s ease forwards;
-    animation-delay: 2.3s;
+    animation-delay: 0.3s;
   }
   .container span{
     flex-basis: 50%;
